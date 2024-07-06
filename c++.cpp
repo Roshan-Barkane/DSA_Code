@@ -3,9 +3,8 @@
 using namespace std;
 int main()
 {
-    int x, y;
-    cin >> x >> y;
-    cout << "Value of x : " << x << endl
-         << "Value of y :" << y;
+    string s1, s2;
+    getline(cin, s1);
+    cout << s1;
     return 0;
 }
