@@ -1,12 +1,13 @@
 #include <iostream>
+using namespace std;
 int main()
 {
     // \n and endl are word on similar
-    std ::cout << "Hey Roshan \n";
+    cout << "Hey Roshan \n";
     // add multiple Statement in single line
 
-    std ::cout << "Hey Roshan" << std::endl
-               << "chal nikal life se" << std::endl;
-    std ::cout << "Hey Roshan";
+    cout << "Hey Roshan" << endl
+         << "chal nikal life se" << endl;
+    cout << "Hey Roshan";
     return 0;
 }
